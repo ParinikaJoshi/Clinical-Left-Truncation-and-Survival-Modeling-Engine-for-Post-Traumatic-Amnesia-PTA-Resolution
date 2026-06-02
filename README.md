@@ -60,7 +60,7 @@ This code framework is written for Stata version 15.0 or higher. The pipeline ut
 ### Operational Deployment Steps
 
 #### 1. Configure System Pointers
-Before running the scripts (`HW5_log.do`, `HW5_Spline_Log.do`, `HW_Multivariable_Do.do`, or `FinalExam.do`), change the global path variables to point to your data directory, cluster volume, or local project folder:
+Before running the scripts, change the global path variables to point to your data directory, cluster volume, or local project folder:
 
 ```stata
 global data_path "YOUR_VOLUME:/Path/To/Your/Data/Volume"
